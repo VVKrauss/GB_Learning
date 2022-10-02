@@ -1,0 +1,11 @@
+F:\!_Learning\Homework_2\Homework_2\Homework_2_1\bin\Debug\Homework_2_1.exe.config
+F:\!_Learning\Homework_2\Homework_2\Homework_2_1\bin\Debug\Homework_2_1.exe
+F:\!_Learning\Homework_2\Homework_2\Homework_2_1\bin\Debug\Homework_2_1.pdb
+F:\!_Learning\Homework_2\Homework_2\Homework_2_1\obj\Debug\Homework_2_1.csproj.AssemblyReference.cache
+F:\!_Learning\Homework_2\Homework_2\Homework_2_1\obj\Debug\Homework_2_1.csproj.SuggestedBindingRedirects.cache
+F:\!_Learning\Homework_2\Homework_2\Homework_2_1\obj\Debug\Homework_2_1.csproj.CoreCompileInputs.cache
+F:\!_Learning\Homework_2\Homework_2\Homework_2_1\obj\Debug\Homework_2_1.exe
+F:\!_Learning\Homework_2\Homework_2\Homework_2_1\obj\Debug\Homework_2_1.pdb
+F:\!_Learning\Homework_2\Homework_2\Homework_2_1\bin\Debug\Krauss.Utilities.dll
+F:\!_Learning\Homework_2\Homework_2\Homework_2_1\bin\Debug\Krauss.Utilities.pdb
+F:\!_Learning\Homework_2\Homework_2\Homework_2_1\obj\Debug\Homework_2_1.csproj.CopyComplete

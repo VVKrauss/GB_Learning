@@ -1,0 +1,6 @@
+F:\!_Learning\Homework_2\Homework_2\Krauss.Utilities\bin\Debug\Krauss.Utilities.dll
+F:\!_Learning\Homework_2\Homework_2\Krauss.Utilities\bin\Debug\Krauss.Utilities.pdb
+F:\!_Learning\Homework_2\Homework_2\Krauss.Utilities\obj\Debug\Krauss.Utilities.csproj.AssemblyReference.cache
+F:\!_Learning\Homework_2\Homework_2\Krauss.Utilities\obj\Debug\Krauss.Utilities.csproj.CoreCompileInputs.cache
+F:\!_Learning\Homework_2\Homework_2\Krauss.Utilities\obj\Debug\Krauss.Utilities.dll
+F:\!_Learning\Homework_2\Homework_2\Krauss.Utilities\obj\Debug\Krauss.Utilities.pdb
