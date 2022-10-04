@@ -1,0 +1,11 @@
+R:\GB\Gb_learning\Homework_3\Homework_3\Homework_3_1\bin\Debug\Homework_3_1.exe.config
+R:\GB\Gb_learning\Homework_3\Homework_3\Homework_3_1\bin\Debug\Homework_3_1.exe
+R:\GB\Gb_learning\Homework_3\Homework_3\Homework_3_1\bin\Debug\Homework_3_1.pdb
+R:\GB\Gb_learning\Homework_3\Homework_3\Homework_3_1\bin\Debug\Krauss.Utilities.dll
+R:\GB\Gb_learning\Homework_3\Homework_3\Homework_3_1\bin\Debug\Krauss.Utilities.pdb
+R:\GB\Gb_learning\Homework_3\Homework_3\Homework_3_1\obj\Debug\Homework_3_1.csproj.AssemblyReference.cache
+R:\GB\Gb_learning\Homework_3\Homework_3\Homework_3_1\obj\Debug\Homework_3_1.csproj.SuggestedBindingRedirects.cache
+R:\GB\Gb_learning\Homework_3\Homework_3\Homework_3_1\obj\Debug\Homework_3_1.csproj.CoreCompileInputs.cache
+R:\GB\Gb_learning\Homework_3\Homework_3\Homework_3_1\obj\Debug\Homework_3_1.csproj.CopyComplete
+R:\GB\Gb_learning\Homework_3\Homework_3\Homework_3_1\obj\Debug\Homework_3_1.exe
+R:\GB\Gb_learning\Homework_3\Homework_3\Homework_3_1\obj\Debug\Homework_3_1.pdb
