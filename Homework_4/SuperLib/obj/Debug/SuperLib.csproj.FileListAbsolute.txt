@@ -1,0 +1,6 @@
+R:\GB\Gb_learning\Homework_4\SuperLib\bin\Debug\SuperLib.dll
+R:\GB\Gb_learning\Homework_4\SuperLib\bin\Debug\SuperLib.pdb
+R:\GB\Gb_learning\Homework_4\SuperLib\obj\Debug\SuperLib.csproj.AssemblyReference.cache
+R:\GB\Gb_learning\Homework_4\SuperLib\obj\Debug\SuperLib.csproj.CoreCompileInputs.cache
+R:\GB\Gb_learning\Homework_4\SuperLib\obj\Debug\SuperLib.dll
+R:\GB\Gb_learning\Homework_4\SuperLib\obj\Debug\SuperLib.pdb
