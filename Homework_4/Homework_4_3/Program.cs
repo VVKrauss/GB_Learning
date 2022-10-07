@@ -34,8 +34,7 @@ namespace Homework_4_3
             string fileName = Console.ReadLine();
             bool exist = false;
 
-
-            while (!exist)
+                        while (!exist)
             {
 
                 if (File.Exists(fileName))
@@ -90,7 +89,7 @@ namespace Homework_4_3
 
 
 
-    class Account
+    struct Account
     {
 
         private static string login = "root";
