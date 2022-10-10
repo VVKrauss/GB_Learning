@@ -182,6 +182,7 @@ namespace Homework_4_1
             set { innerArray[index] = value; }
         }
 
+        /// <param name="size">Размерность массива</param>
         public SuperArray(int size) //создаём массив со случайными int элементами 
         {
             innerArray = new int[size];

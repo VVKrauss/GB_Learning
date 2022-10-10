@@ -125,17 +125,19 @@ namespace SuperLib
             return buffer;
         }
 
-        public int Sum()
+        public int Sum
         {
-            int sum = 0;
-            for (int i = 0; i < innerArrayCount; i++)
+            get
             {
+                int sum = 0;
+                for (int i = 0; i < innerArrayCount; i++)
+                {
 
-                sum += innerArray[i];
+                    sum += innerArray[i];
 
+                }
+                return sum;
             }
-            return sum;
-
         }
 
         public int[] Multi(int multiplayValue)
@@ -150,7 +152,7 @@ namespace SuperLib
             return buffer;
 
         }
-        public int[] ToIntArray() // сделаем из нашего СУПЕР обычный, су
+        public int[] ToIntArray() // сделаем из нашего СУПЕР обычный
         {
             int[] buffer = new int[innerArrayCount];
 
@@ -162,29 +164,40 @@ namespace SuperLib
         }
 
 
-        public int MaxCount()
+        public int MaxCount
         {
-            int maxValue = int.MinValue;
-            int count = 0;
-
-            for (int i = 0; i < innerArrayCount; i++)
+            get
             {
+                // присваиваем наименьшее возможное значение
+                int maxValue = int.MinValue;
+                // выставляем счётчик максимальных чисел на 0
+                int count = 0;
 
-                if (maxValue < innerArray[i])
+                // перебираем все элементы в массиве
+                for (int i = 0; i < innerArrayCount; i++)
                 {
-                    count = 1;
-                    maxValue = innerArray[i];
-                    this.maxElement = maxValue;
+                    // если находится значение больше
+                    if (maxValue < innerArray[i])
+                    {
+                        // записываем в счётчик единицу, так как это первое на столько большое значение
+                        count = 1;
+                        // присваиваем новое значение переменной
+                        maxValue = innerArray[i];
+                        // записываем это значение в переменную класса
+                        this.maxElement = maxValue;
+                    }
+                    else if (maxValue == innerArray[i]) // если элемент равен сохранённому значению
+                    {
+                        // увеличиваем счётчик на единицу
+                        count++;
+                        // и на всякий случай пересохраняем значение
+                        this.maxElement = maxValue;
+                    }
+                    // если меньше - нам пофиг, так, что не обрабатываем такой вариант
                 }
-                else if (maxValue == innerArray[i])
-                {
-                    count++;
-                    this.maxElement = maxValue;
-                }
-
+                // возвращаем значение
+                return count;
             }
-
-            return count;
         }
 
         public override string ToString()

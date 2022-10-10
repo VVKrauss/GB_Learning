@@ -71,7 +71,7 @@ namespace HomeWork_4_2
             SuperLib.SuperArray superArray4 = new SuperLib.SuperArray("beautiful.txt");
             Console.WriteLine($"\nА этот массив мы скоприовали из нашего \"прекрасного\" файла \n{superArray4.ToString()}");
 
-            int sum = superArray4.Sum();
+            int sum = superArray4.Sum;
             Console.WriteLine($"\nКстати, сумма значений всех элементов = {sum}");
 
 
@@ -87,7 +87,7 @@ namespace HomeWork_4_2
 
 
 
-            Console.WriteLine($"\nИ самое интересное - количество максимальных элементов = {superArray4.MaxCount()}," +
+            Console.WriteLine($"\nИ самое интересное - количество максимальных элементов = {superArray4.MaxCount}," +
                 $" (Мксимальный элемент: {superArray4.MaxElement})");
 
 

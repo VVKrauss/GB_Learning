@@ -28,13 +28,14 @@ namespace Homework_4_3
 
             //
 
-            Console.WriteLine("Попробуем взломать пентагон. убдитесь, что файл с доступом находится в одной папке с этой программой");
+            Console.WriteLine("Попробуем взломать пентагон. убдитесь, что файл с доступом " +
+                "находится в одной папке с этой программой");
             Console.Write("Введите имя файла: ");
 
             string fileName = Console.ReadLine();
             bool exist = false;
 
-                        while (!exist)
+            while (!exist)
             {
 
                 if (File.Exists(fileName))
@@ -47,7 +48,7 @@ namespace Homework_4_3
                 }
                 else
                 {
-                    Console.Write($"файл не найден... Положите файл {fileName} в папке с этой программой и нажмите Ввод\n");
+                    Console.Write($"файл не найден... Положите файл {fileName} в папку с этой программой и нажмите Ввод\n");
                     Console.ReadLine();
 
                 }
@@ -68,12 +69,13 @@ namespace Homework_4_3
 
             string[] keyFile = new string[2];
 
-            for (int i = 0; i < keyFile.Length; i++) { 
-                keyFile[i] = sr.ReadLine(); 
+            for (int i = 0; i < keyFile.Length; i++)
+            {
+                keyFile[i] = sr.ReadLine();
             }
 
 
-            string l = keyFile[0];  
+            string l = keyFile[0];
             string p = keyFile[1];
 
             if (!Account.IsLoggedIn(l, p))
@@ -109,7 +111,6 @@ namespace Homework_4_3
                 return false;
 
             }
-
         }
     }
 }
