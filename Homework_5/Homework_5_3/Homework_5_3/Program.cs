@@ -7,7 +7,6 @@
 
 using System;
 using System.Text;
-using System.Text.RegularExpressions;
 
 namespace Homework_5_3
 {
@@ -34,7 +33,8 @@ namespace Homework_5_3
                     Console.WriteLine("строки явялются перестановкой друг друга");
                 else
                     Console.WriteLine("строки НЕ явялются перестановкой друг друга");
-            } else
+            }
+            else
                 Console.WriteLine("строки одинаковы");
 
 
@@ -46,16 +46,17 @@ namespace Homework_5_3
 
             StringBuilder sb = new StringBuilder(str1);
 
-            foreach (var c in str2) {
+            foreach (var c in str2)
+            {
                 int pos = sb.ToString().IndexOf(c);
                 if (pos != -1)
                     sb.Remove(pos, 1);
             }
 
             if (sb.Length == 0)
-                return true;  
+                return true;
             else
-                return false; 
+                return false;
 
         }
     }

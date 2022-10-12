@@ -49,7 +49,8 @@ namespace Homework_5_1
                     loginCorrect = true;
                     Console.WriteLine($"Отличный логин");
                 }
-                else {
+                else
+                {
 
                     Console.Write($"Логин не подходит. ");
 

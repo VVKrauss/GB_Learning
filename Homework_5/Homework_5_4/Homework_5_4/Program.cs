@@ -18,12 +18,6 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace Homework_5_4
 {
@@ -40,50 +34,160 @@ namespace Homework_5_4
             int countOfStudents;
             int.TryParse(Console.ReadLine(), out countOfStudents);
 
+
+
+
+            // решение 1
+            Console.Write("========= Регение 1 =========\n\n");
+            string[] s = studentsStringArray(countOfStudents);
+
+            DateTime dtPractice1 = new DateTime();
+            dtPractice1 = DateTime.Now;
+
+            BadStudents1(s);
+
+            Console.WriteLine($"Время выполнения задачи решением 1: [{DateTime.Now - dtPractice1}]");
+
+
+
+            // решение 2
+            // при помощи структуры
+            Console.Write("========= Регение 2 =========\n\n");
             Student[] students = CreateStudentsArray(countOfStudents);
 
-            Array.Sort(students);
+            DateTime dtPractice2 = new DateTime();
+            dtPractice2 = DateTime.Now;
 
-            BadStudents(students);
+            Array.Sort(students);
+            BadStudents2(students);
+
+            Console.WriteLine($"Время выполнения задачи решением 2: [{DateTime.Now - dtPractice2}]");
+
 
             Krauss.Utilities.Helper.EndProgramm();
         }
 
-        private static void BadStudents(Student[] students)
+        private static void BadStudents1(string[] strings)
+        {
+            bool sorted = false;
+
+
+            while (!sorted)
+            {   sorted = true;
+                for (int i = 0; i < strings.Length - 1; i++)
+                {
+                    
+                    if (GetAverage(strings[i]) > GetAverage(strings[i + 1]))
+                    {
+                        (strings[i], strings[i + 1]) = (strings[i + 1], strings[i]);
+                        sorted = false;
+
+                    };
+
+                }
+            }
+
+
+            bool done = false;
+            int i1 = 0;
+
+            Console.WriteLine($"\nХудшие ученики:");
+            while (!done)
+            {
+
+                if (i1 < 3)
+                {
+
+                    Console.WriteLine(Fio(strings[i1]));
+                    i1++;
+                }
+                else
+                {
+
+                    if (GetAverage(strings[i1]) == GetAverage(strings[i1 - 1]))
+                    {
+                        Console.WriteLine(Fio(strings[i1]));
+                        i1++;
+                    }
+                    else
+                        done = true;
+                }
+
+            }
+
+
+
+        }
+
+        private static string Fio(string v)
+        {
+            string[] lines = v.Split(' ');
+
+            return lines[0] +" "+ lines[1];
+        }
+
+        private static decimal GetAverage(string stdentIncome)
+        {
+            string[] strings = stdentIncome.Split(' ');
+
+            return Math.Round(((decimal.Parse(strings[2]) + decimal.Parse(strings[3]) + decimal.Parse(strings[4])) / 3), 2);
+        }
+
+
+        //=================================================================
+        private static string[] studentsStringArray(int countOfStudents)
+        {
+            string[] line = new string[countOfStudents];
+            for (int i = 0; i < countOfStudents; i++)
+            {
+
+                Console.Write($"Ученик {i + 1}:");
+                line[i] = Console.ReadLine();
+            }
+
+            return line;
+
+        }
+
+        private static void BadStudents2(Student[] students)
         {
 
             decimal temp = 0;
             Console.WriteLine($"\nХудшие ученики:");
 
-            for (int i = 0; i < students.Length; i++) {
+            for (int i = 0; i < students.Length; i++)
+            {
 
                 if (i < 3)
                 {
                     Console.WriteLine($"{students[i].ToString()}");
                     temp = students[i].Average;
                 }
-                else {
-                    if (students[i].Average == temp) {
+                else
+                {
+                    if (students[i].Average == temp)
+                    {
                         Console.WriteLine($"{students[i].ToString()}");
                     }
                 }
-             }
+            }
 
         }
 
         private static Student[] CreateStudentsArray(int countOfStudents)
         {
-            Student[] sArray = new Student[countOfStudents];    
+            Student[] sArray = new Student[countOfStudents];
 
-            for (int i = 0; i < countOfStudents; i++) {
+            for (int i = 0; i < countOfStudents; i++)
+            {
 
-                Console.Write($"Ученик {i+1}:");
+                Console.Write($"Ученик {i + 1}:");
                 string[] line = Console.ReadLine().Split(' ');
 
                 Student student = new Student(line[0], line[1], int.Parse(line[2]), int.Parse(line[3]), int.Parse(line[4]));
-            
-                sArray[i] = student; 
-                
+
+                sArray[i] = student;
+
             }
 
             return sArray;
@@ -91,10 +195,9 @@ namespace Homework_5_4
         }
     }
 
-
     struct Student : IComparable
-    { 
-    
+    {
+
         private string name;
         private string surname;
         private int g1;
@@ -108,9 +211,10 @@ namespace Homework_5_4
             else throw new ArgumentException("Некорректное значение параметра");
         }
 
-        public decimal Average {
-            get { return average; } 
-            
+        public decimal Average
+        {
+            get { return average; }
+
         }
 
         public string Name
@@ -123,15 +227,15 @@ namespace Homework_5_4
         }
 
 
-        public Student(string f, string n, int g1, int g2, int g3 )
-        { 
-            this.name = n;  
+        public Student(string f, string n, int g1, int g2, int g3)
+        {
+            this.name = n;
             this.surname = f;
             this.g1 = g1;
             this.g2 = g2;
             this.g3 = g3;
-            this.average = Math.Round((((decimal)g1 + (decimal)g2 + (decimal)g3) / 3),2);
-           // Console.WriteLine(average.ToString());
+            this.average = Math.Round((((decimal)g1 + (decimal)g2 + (decimal)g3) / 3), 2);
+            // Console.WriteLine(average.ToString());
         }
 
         public override string ToString()
@@ -148,5 +252,10 @@ Fedor Vanya 5 5 4
 Senya Zhenya 5 5 5
 Nik Pock 2 1 1
 Werk Kerk 2 2 1
+Ivanius Petyas 2 5 5
+Fedorius Vanya 1 3 2
+Senyakus Zhenyaus 5 3 5
+Nikropilis Pockusik 2 4 1
+Werkomeb Kerkops 2 2 2
 
 */
