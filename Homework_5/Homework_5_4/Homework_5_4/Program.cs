@@ -38,7 +38,7 @@ namespace Homework_5_4
 
 
             // решение 1
-            Console.Write("========= Регение 1 =========\n\n");
+            Console.Write("========= Решение 1 =========\n\n");
             string[] s = studentsStringArray(countOfStudents);
 
             DateTime dtPractice1 = new DateTime();
@@ -52,7 +52,7 @@ namespace Homework_5_4
 
             // решение 2
             // при помощи структуры
-            Console.Write("========= Регение 2 =========\n\n");
+            Console.Write("========= Решение 2 =========\n\n");
             Student[] students = CreateStudentsArray(countOfStudents);
 
             DateTime dtPractice2 = new DateTime();
