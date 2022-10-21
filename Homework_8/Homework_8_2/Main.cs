@@ -19,7 +19,7 @@ namespace Homework_8_2
         private string copyright = @"О программе.
 Автор: Виталий Краусс
 Версия программы: 1.01
-copyright @ никому нельзя ничего копировать! ;("; 
+copyright @ никому нельзя ничего копировать! ;(";
 
         public Main()
         {
@@ -36,14 +36,10 @@ copyright @ никому нельзя ничего копировать! ;(";
 
         private void labelInfo_Click(object sender, System.EventArgs e)
         {
-            ShowInfo();
-        }
-
-
-        private void ShowInfo()
-        {
             MessageBox.Show(about, "О задании... ", MessageBoxButtons.OK);
         }
+
+
 
         private void menuItemAbout_Click(object sender, System.EventArgs e)
         {
