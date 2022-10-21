@@ -1,0 +1,11 @@
+R:\GB\Gb_learning\Homework_7\Homework_7\Homework_7_1\bin\Debug\Homework_7_1.exe.config
+R:\GB\Gb_learning\Homework_7\Homework_7\Homework_7_1\bin\Debug\Homework_7_1.exe
+R:\GB\Gb_learning\Homework_7\Homework_7\Homework_7_1\bin\Debug\Homework_7_1.pdb
+R:\GB\Gb_learning\Homework_7\Homework_7\Homework_7_1\obj\Debug\Homework_7_1.csproj.AssemblyReference.cache
+R:\GB\Gb_learning\Homework_7\Homework_7\Homework_7_1\obj\Debug\Homework_7_1.csproj.SuggestedBindingRedirects.cache
+R:\GB\Gb_learning\Homework_7\Homework_7\Homework_7_1\obj\Debug\Homework_7_1.Form1.resources
+R:\GB\Gb_learning\Homework_7\Homework_7\Homework_7_1\obj\Debug\Homework_7_1.Properties.Resources.resources
+R:\GB\Gb_learning\Homework_7\Homework_7\Homework_7_1\obj\Debug\Homework_7_1.csproj.GenerateResource.cache
+R:\GB\Gb_learning\Homework_7\Homework_7\Homework_7_1\obj\Debug\Homework_7_1.csproj.CoreCompileInputs.cache
+R:\GB\Gb_learning\Homework_7\Homework_7\Homework_7_1\obj\Debug\Homework_7_1.exe
+R:\GB\Gb_learning\Homework_7\Homework_7\Homework_7_1\obj\Debug\Homework_7_1.pdb
