@@ -80,8 +80,6 @@ namespace Homework_8_2
             xmlSerializer.Serialize(fileStream, _allQuestions);
             fileStream.Close();
 
-
-
         }
 
         public void SaveQuestions(string fileName)
