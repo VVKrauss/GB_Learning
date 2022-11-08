@@ -1,0 +1,11 @@
+R:\GB\Gb_learning\Homework_8\Homework_8_2\bin\Debug\Homework_8_2.exe.config
+R:\GB\Gb_learning\Homework_8\Homework_8_2\bin\Debug\Homework_8_2.exe
+R:\GB\Gb_learning\Homework_8\Homework_8_2\bin\Debug\Homework_8_2.pdb
+R:\GB\Gb_learning\Homework_8\Homework_8_2\obj\Debug\Homework_8_2.csproj.AssemblyReference.cache
+R:\GB\Gb_learning\Homework_8\Homework_8_2\obj\Debug\Homework_8_2.csproj.SuggestedBindingRedirects.cache
+R:\GB\Gb_learning\Homework_8\Homework_8_2\obj\Debug\Homework_8_2.Main.resources
+R:\GB\Gb_learning\Homework_8\Homework_8_2\obj\Debug\Homework_8_2.Properties.Resources.resources
+R:\GB\Gb_learning\Homework_8\Homework_8_2\obj\Debug\Homework_8_2.csproj.GenerateResource.cache
+R:\GB\Gb_learning\Homework_8\Homework_8_2\obj\Debug\Homework_8_2.csproj.CoreCompileInputs.cache
+R:\GB\Gb_learning\Homework_8\Homework_8_2\obj\Debug\Homework_8_2.exe
+R:\GB\Gb_learning\Homework_8\Homework_8_2\obj\Debug\Homework_8_2.pdb
